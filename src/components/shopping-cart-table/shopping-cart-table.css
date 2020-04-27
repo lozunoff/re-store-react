@@ -1,0 +1,32 @@
+.shopping-cart-table {
+  margin-top: 45px;
+}
+
+.shopping-cart-table .total {
+  text-align: right;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+
+.shopping-cart-table button {
+  margin-left: 5px;
+}
+
+.shopping-cart-table th,
+.shopping-cart-table td {
+  box-sizing: border-box;
+  width: 130px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.shopping-cart-table th:first-child,
+.shopping-cart-table td:first-child {
+  width: 50px;
+}
+
+.shopping-cart-table th:nth-child(2),
+.shopping-cart-table td:nth-child(2) {
+  width: auto;
+  text-align: left;
+}
